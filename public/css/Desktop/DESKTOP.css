@@ -1,0 +1,28 @@
+/* Home */
+
+@import url(./header.css);
+@import url(./homehero.css);
+@import url(./wework.css);
+@import url(./ourwork.css);
+@import url(./features.css);
+@import url(./testimonial.css);
+@import url(./FAQ.css);
+@import url(./ContactForm.css);
+@import url(./ourBlog.css);
+@import url(./footer.css);
+@import url(./hamburgerHeader.css);
+
+/* About_us */
+@import url(./AboutUs.css);
+@import url(./WhoWereAre.css);
+@import url(./process.css);
+@import url(./Mission.css);
+@import url(./Benefits.css);
+@import url(./OurTeam.css);
+
+/* Pricing */
+@import url(./Pricing_header.css);
+@import url(./pricingCard.css);
+@import url(./FAQ.css);
+
+/* BlogPost */

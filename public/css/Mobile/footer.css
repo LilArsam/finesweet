@@ -1,0 +1,144 @@
+div.footer{
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+    div.letsTalk{
+        width: 100%;
+        background-color: var(--mainpalletedarkblue);
+        padding: 100px 40px 100px 40px;
+        box-sizing: border-box;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: start;
+        align-items: start;
+        gap: 120px;
+        margin-top: 50px;
+    }
+    .left{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: start;
+        align-items: start;
+        .footerText{
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 500;
+            color: #ffffff80;
+            padding-top: 23px;
+            box-sizing: border-box;
+        }
+        .footerEmail{
+            width: 100%;
+            background-color: var(--mainpalleteyellow);
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: start;
+            align-items: start;
+            gap: 30px;
+            padding: 18px 37px;
+            box-sizing: border-box;
+            margin-top: 23%;
+            .Email>.EmailMe{
+                font-family: Poppins;
+                font-size: 18px;
+                font-weight: 500;
+
+            }
+            .Email>.MyEmail{
+                font-family: Poppins;
+                font-size: 15px;
+                font-weight: 400;
+
+            }
+            .phone>.callMe{
+                font-family: Poppins;
+                font-size: 18px;
+                font-weight: 500;
+
+            }
+            .phone>.phoneNumber{
+                font-family: Poppins;
+                font-size: 15px;
+                font-weight: 400;
+
+            }
+        }
+    }
+    .right{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: start;
+        align-items: start;
+        gap: 30px;
+
+
+        .RightText{
+            font-family: Poppins;
+            font-size: 38px;
+            font-weight: 600;
+            color: white;
+        }
+        .littleText{
+            font-family: Poppins;
+            font-size: 12px;
+            font-weight: 400;
+            color: #ffffff80;
+        }
+        .social{
+            width: 100%;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: start;
+            align-items: center;
+            gap: 20px;
+
+            svg{
+                width: 25px;
+                height: 25px;
+                color: white;
+            }
+        }
+    }
+    .FooterLink{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 15px;
+        box-sizing: border-box;
+        .right{
+            width: 40%;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+            font-family: Poppins;
+            font-size: 15px;
+            font-weight: 500;
+        }
+        .left{
+            width: 60%;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: end;
+            align-items: center;
+            gap: 11px;
+            font-family: Poppins;
+            font-size: 11px;
+            font-weight: 500;
+            .rightHome>a , .rightAbout_us>a , .rightFeatures>a , .rightPricing>a , .rightFAQ>a , .rightblog>a{
+                text-decoration: none;
+                color:  var(--mainpalletedarkblue);
+            }
+        }
+    }
+}

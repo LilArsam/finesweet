@@ -1,0 +1,121 @@
+.featuresblog{
+    width: 100%;
+    padding: 100px 60px;
+    box-sizing: border-box;
+    .FeaturesBlogData{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: start;
+        align-items: center;
+        span.FeaturesHead{
+            font-family: Poppins;
+            font-size: 20px;
+            font-weight: 600;
+        }
+        img{
+            width: 100%;
+            height: 300px;
+        }
+        .FeaturesSmallText{
+            font-family: Poppins;
+            font-size: 12px;
+            font-weight: 400;
+            padding: 0px 0px;
+            box-sizing: border-box;
+            opacity: .7;
+        }
+    }
+}
+.BlogPageBlog{
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: center;
+    padding: 100px 40px;
+    box-sizing: border-box;
+    .BlogPageBlogData{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: start;
+        align-items: center;
+        gap: 50px;
+        .blogSpan{
+            font-family: Poppins;
+            font-size: 30px;
+            font-weight: 600;
+
+        }
+        .downBlog{
+            width: 100%;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            .BlogCard{
+                width: 30%;
+                display: flex;
+                flex-flow: column nowrap;
+                justify-content: start;
+                align-items: start;
+                gap: 15px;
+                .MonthsBlog{
+                    font-family: Poppins;
+                    font-size: 10px;
+                    font-weight: 500;
+                }
+                .head{
+                font-family: Poppins;
+                font-size: 12px;
+                font-weight: 400;
+
+                }
+                .lighter{
+                    font-family: Poppins;
+                    font-size: 10px;
+                    font-weight: 400;
+
+                }
+            }
+        }
+        .aboveBlog{
+            width: 100%;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            .BlogCard{
+                width: 30%;
+                display: flex;
+                flex-flow: column nowrap;
+                justify-content: start;
+                align-items: start;
+                gap: 15px;
+                .MonthsBlog{
+                    font-family: Poppins;
+                    font-size: 10px;
+                    font-weight: 500;
+                }
+                .head{
+                font-family: Poppins;
+                font-size: 12px;
+                font-weight: 400;
+
+                }
+                .lighter{
+                    font-family: Poppins;
+                    font-size: 10px;
+                    font-weight: 400;
+
+                }
+            }
+        }
+    }
+}
+ /* d-flex flex-col flex-nowrap justify-start items-start w-[35%] gap-[10px] */

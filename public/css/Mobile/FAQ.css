@@ -1,0 +1,42 @@
+.faq{
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 100px 0px;
+    box-sizing: border-box;
+    div.TEXT{
+        width: 60%;
+        height: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        .big{
+            font-family: Poppins;
+            font-size: 25px;
+            font-weight: 600;
+        }
+        .small{
+            font-family: Poppins;
+            font-size: 10px;
+            font-weight: 500;
+            color: mediumblue;
+            cursor: pointer;
+        }
+    }
+    div.questions{
+        width: 70%;
+        .accordion{
+            .accordion-item{
+            border-left: none;
+            border-right: none;
+                .accordion-header{
+                    .accordion-button{
+                        color: mediumblue;
+                    }
+                }
+            }
+        }
+    }
+}

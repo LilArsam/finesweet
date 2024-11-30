@@ -1,0 +1,123 @@
+.ConTactFoRm {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 20px;
+  box-sizing: border-box;
+  .contactForm {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--mainpalletedarkblue);
+    .imageContact {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      img {
+        width: 100%;
+        height: 568px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        opacity: 0.5;
+      }
+      .headerContact {
+        position: absolute;
+        z-index: 20;
+        padding: 0px 50px;
+        box-sizing: border-box;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        span.big {
+          font-family: Poppins;
+          font-size: 30px;
+          font-weight: 600;
+          color: white;
+        }
+        span.small {
+          font-family: Poppins;
+          font-size: 11px;
+          font-weight: 500;
+          color: white;
+        }
+      }
+    }
+  }
+  .Form {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--mainpalletedarkblue);
+    .FormParts {
+      padding: 92px;
+      box-sizing: border-box;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: start;
+      gap: 16px;
+      .headerForm {
+        font-family: Poppins;
+        font-size: 28px;
+        font-weight: 400;
+        color: white;
+      }
+      .textForm {
+        font-family: Poppins;
+        font-size: 10px;
+        font-weight: 500;
+        opacity: 0.9;
+        color: white;
+      }
+      input {
+        width: 100%;
+        height: 45px;
+        background-color: var(--mainpalletedarkblue);
+        border: 1.5px solid rgba(255, 255, 255, 0.2);
+        border-radius: 8px;
+        padding-left: 20px;
+        box-sizing: border-box;
+        color: #fff7;
+      }
+      .btnForm {
+        border-radius: 50px;
+        width: 100%;
+        height: 45px;
+        background-color: var(--mainpalleteyellow);
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: 300ms;
+        &:hover {
+          background-color: #fee3a0;
+        }
+      }
+      .moreForm {
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+}

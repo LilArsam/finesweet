@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ /* colorroot */
+ :root{
+    --mainpalletedarkblue:#1c1e53;
+    --mainpalleteblue:#2405f2;
+    --mainpalleteyellow:#FCD980;
+    --mainpalletegray:#282938;
+    --mainpalleteicy:#eef4fa;
+    /* bg */
+    --bgcolor:#f4f6fc;
+    /* textcolor */
+    --textcolorblue:#2405f2;
+    --textcolloryellow:#fcd980;
+ }
+ @font-face {
+    font-family: Poppins;
+    src: url(../font/Poppins-Medium.ttf);
+
+ }
+ @font-face {
+    font-family: Manrope;
+    src: url(../font/Manrope-VariableFont_wght.ttf);
+ }

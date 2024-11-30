@@ -1,0 +1,76 @@
+.WhoWere{
+    width: 100%;
+    padding: 0px 40px 100px 40px;
+    box-sizing: border-box;
+    .whoWreAre{
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: start;
+        align-items: start;
+        .up{
+            width: 100%;
+            padding: 40px 50px;
+            box-sizing: border-box;
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: start;
+            align-items: center;
+            gap: 20px;
+            background-color: var(--bgcolor);
+            .right{
+                width: 50%;
+                display: flex;
+                flex-flow: column nowrap;
+                justify-content: start;
+                align-items: start;
+                gap: 16px;
+                .big{
+                    font-family: Poppins;
+                    font-size: 33px;
+                    font-weight: 600;
+                }
+                .small{
+                    font-family: Poppins;
+                    font-size: 12px;
+                    font-weight: 400;
+                }
+            }
+            .left{
+                width: 50%;
+                display: flex;
+                flex-flow: column nowrap;
+                justify-content: start;
+                align-items: start;
+                gap: 16px;
+                .WhoWereArespan{
+                    font-family: Poppins;
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+                .big{
+                    font-family: Poppins;
+                    font-size: 33px;
+                    font-weight: 600;
+                }
+                .small{
+                    font-family: Poppins;
+                    font-size: 12px;
+                    font-weight: 400;
+                }
+            }
+        }
+        .bottom{
+            width: 100%;
+            background-color: crimson;
+            overflow: hidden;
+            img{
+                width: 100%;
+                height: 100%;
+                transform: scale(115%);
+            }
+
+        }
+
+    }
+}

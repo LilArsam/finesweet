@@ -1,0 +1,117 @@
+div.pricingCard{
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 10px;
+    box-sizing: border-box;
+    .card{
+        width: 90%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: start;
+        align-items: start;
+        background-color: #F4F6FC;
+        border-radius: 10px;
+        padding: 45px 30px;
+        box-sizing: border-box;
+        transition: 700ms;
+        position: relative;
+        .circle{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 80%;
+            background-color: #62639f;
+            opacity: 0;
+            transition: 700ms;
+            border-radius: 10px 10px 130px 130px;
+
+        }
+        div{
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: start;
+            align-items: start;
+            z-index: 20;
+            gap: 10px;
+            transition: 700ms;
+
+
+            .price{
+                font-family: Poppins;
+                font-size: 38px;
+                font-weight: 600;
+            }
+            .bigtextCard{
+                font-family: Poppins;
+                font-size: 24px;
+                font-weight: 400;
+            }
+            .smalltextCard{
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 400;
+                opacity: .6;
+            }
+            .list{
+                display: flex;
+                flex-flow: column nowrap;
+                justify-content: start;
+                align-items: start;
+                gap: 15px;
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 400;
+                padding-top: 50px;
+                box-sizing: border-box;
+            }
+            .BTNpricing{
+                width: 100%;
+                background-color: var(--mainpalletedarkblue);
+                border-radius: 50px;
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: center;
+                align-items: center;
+                margin-top: 20px;
+                box-sizing: border-box;
+                span{
+                    font-family: Manrope;
+                    font-size: 15px;
+                    font-weight: 600;
+                    padding: 16px 77px;
+                    box-sizing: border-box;
+                    color: white;
+                }
+            }
+        }
+        &:hover{
+            background-color: var(--mainpalletedarkblue);
+            .price{
+                color: white;
+            }
+            .bigtextCard{
+                color: white;
+            }
+            .smalltextCard{
+                color: white;
+            }
+            .list{
+                color: white;
+            }
+            .BTNpricing{
+                background-color: var(--mainpalleteyellow);
+                span{
+                    color: black;
+                }
+            }
+            .circle{
+                opacity: 1;
+            }
+        }
+    }
+}

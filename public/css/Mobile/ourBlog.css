@@ -1,0 +1,70 @@
+.OurBlog{
+    width: 100%;
+    padding: 100px 50px 100px 50px;
+    box-sizing: border-box;
+    .blogs{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: start;
+        align-items: start;
+        gap: 20px;
+        .textBlog>span{
+            font-family: Poppins;
+            font-size: 38px;
+            font-weight: 600;
+            color: var(--mainpalletegray);
+        }
+        .BlogOurBlog{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 25px;
+            .cardBlog{
+                width: 33%;
+                height: 100%;
+                display: flex;
+                flex-flow: column nowrap;
+                justify-content: start;
+                align-items: start;
+                gap: 14px;
+                img{
+                    width: 100%;
+                    height: 45%;
+                }
+                .month{
+                    font-family: Poppins;
+                    font-size: 12px;
+                    font-weight: 500;
+                    color: var(--mainpalletegray);
+                }
+                .Blogtext{
+                    font-family: Poppins;
+                    font-size: 15px;
+                    font-weight: 400;
+                    color: var(--mainpalletegray);
+
+                }
+                .littleText{
+                    font-family: Poppins;
+                    font-size: 10px;
+                    font-weight: 400;
+                    color: var(--mainpalletegray);
+                    opacity: .6;
+
+                }
+                .moreBlog{
+                    font-family: Poppins;
+                    font-size: 10px;
+                    font-weight: 400;
+                    color: var(--mainpalletegray);
+                }
+
+            }
+        }
+    }
+}

@@ -1,0 +1,66 @@
+/* HomeHero */
+/* HomeHero */
+/* HomeHero */
+
+div.HomeHero{
+    width: 100%;
+    background-color: var(--mainpalletedarkblue);
+    padding: 50px 0px;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    .textHero{
+        width: 50%;
+        .text{
+            div.big{
+                font-family: Poppins;
+                font-size: 32px;
+                font-weight: 600;
+                color: white;
+                margin-bottom: 24px;
+            }
+            div.small{
+                font-family: Poppins;
+                font-size: 10px;
+                font-weight: 400;
+                opacity: .7;
+                color: white;
+            }
+        }
+        .btnHomeHero{
+            width: 230px;
+            padding: 16px 56px;
+            margin-top: 48px;
+            box-sizing: border-box;
+            border-radius: 41px;
+            background-color: var(--mainpalleteyellow);
+            cursor: pointer;
+            transition: 300ms;
+            &:hover{
+                background-color: #fee3a0;
+            }
+            span{
+                font-family: Manrope;
+                font-size: 16px;
+                font-weight: 600;
+                color: var(--mainpalletegray);
+            }
+        }
+    }
+    .imgHero{
+        width: 50%;
+        height: inherit;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        padding-top: 30px;
+        box-sizing: border-box;
+        img{
+            width: 130%;
+        }
+
+    }
+}

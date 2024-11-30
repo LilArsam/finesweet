@@ -1,0 +1,71 @@
+
+
+.WeWork{
+    width: 100%;
+    background-color: var(--mainpalleteicy);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    .left{
+        width: 100%;
+        padding: 50px 100px;
+        box-sizing: border-box;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: start;
+        align-items: start;
+        .text{
+            .largefont > span{
+                font-family: Poppins;
+                font-size: 40px;
+                font-weight: 600;
+                line-height: 64px;
+                text-align: left;
+                color: var(--mainpalletegray);
+            }
+            .meduimfont{
+                font-family: Poppins;
+                font-size: 10px;
+                font-weight: 400;
+                opacity: .7;
+                padding-top: 16px;
+                box-sizing: border-box;
+            }
+            .learnMore{
+                color: var(--mainpalleteblue);
+                font-family: "manrope";
+                padding-top: 16px;
+                box-sizing: border-box;
+                cursor: pointer;
+
+            }
+        }
+    }
+    .right{
+        width: 50%;
+        padding: 0px 100px 100px 0px;
+        box-sizing: border-box;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: start;
+        align-items: start;
+            .cardRight{
+                padding-top: 40px;
+                box-sizing: border-box;
+                .content{
+                    .strategy{
+                        font-family: Poppins;
+                        font-size: 30px;
+                        font-weight: 500;
+                        color: var(--mainpalletegray);
+                    }
+                    .lorem{
+                        font-family: Poppins;
+                        font-size: 10px;
+                        font-weight: 400;
+                }
+            }
+        }
+    }
+}

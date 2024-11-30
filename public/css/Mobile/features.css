@@ -1,0 +1,116 @@
+div.Feature{
+    width: 100%;
+    background-color: var(--mainpalleteicy);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: center;
+    .headerfeature{
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: start;
+        align-items: center;
+        padding: 110px 100px 50px 100px;
+        box-sizing: border-box;
+        text-align: center;
+        span.big{
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 500;
+            color: var(--mainpalletegray);
+
+        }
+        span.text{
+            font-family: Poppins;
+            font-size: 30px;
+            font-weight: 600;
+            color: var(--mainpalletegray);
+
+        }
+    }
+    .bodyFeatures{
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        padding: 0px 50px 20px 50px;
+        box-sizing: border-box;
+        .up{
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: start;
+            align-items: center;
+            gap: 20px;
+            .card{
+                background-color: white;
+                display: flex;
+                flex-flow: column nowrap;
+                justify-content: start;
+                align-items: start;
+                .icon{
+                    padding: 10px 0px 10px 15px;
+                    box-sizing: border-box;
+                    img{
+                        width: 15px;
+                    }
+                }
+                    span.big{
+                        font-family: Poppins;
+                        font-size: 15px;
+                        font-weight: 400;
+                        padding: 0px 0px 12px 10px;
+                        box-sizing: border-box;
+
+                    }
+                    span.small{
+                        font-family: Poppins;
+                        font-size: 8px;
+                        font-weight: 400;
+                        padding: 0px 10px 20px 10px;
+                        box-sizing: border-box;
+
+                    }
+                }
+            }
+            .down{
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: start;
+                align-items: center;
+                gap: 20px;
+                .card{
+                    background-color: white;
+                    display: flex;
+                    flex-flow: column nowrap;
+                    justify-content: start;
+                    align-items: start;
+                    .icon{
+                        padding: 10px 0px 10px 15px;
+                        box-sizing: border-box;
+                        img{
+                            width: 15px;
+                        }
+                    }
+                        span.big{
+                            font-family: Poppins;
+                            font-size: 15px;
+                            font-weight: 400;
+                            padding: 0px 0px 12px 10px;
+                            box-sizing: border-box;
+    
+                        }
+                        span.small{
+                            font-family: Poppins;
+                            font-size: 8px;
+                            font-weight: 400;
+                            padding: 0px 10px 20px 10px;
+                            box-sizing: border-box;
+    
+                        }
+                    }
+                }
+    }
+}
